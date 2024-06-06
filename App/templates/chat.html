@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot Interface</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<input type="hidden" id="session_id" value="{{ session_id }}">
+<div id="chat-container">
+    <div id="messages">
+        <!-- Messages will be dynamically inserted here -->
+    </div>
+    <div id="message-input">
+        <button id="startRecord">
+            <img src="static/micro.png" alt="Icon"></img>
+        </button>
+        <button id="stopRecord" disabled>
+            <div id="spinner" class="spinner"></div>
+        </button>
+        <input type="text" id="chat-input" placeholder="Type a message...">
+        <button id="send-button" onclick="sendMessage()">Send</button>
+    </div>
+</div>
+<script src="static/libs/showdown.min.js"></script>
+<script src="/static/script.js"></script>
+</body>
+</html>
+
+
