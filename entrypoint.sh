@@ -6,4 +6,4 @@ nohup ollama start &> /var/log/ollama/ollama.log &
 # Wait a bit to ensure the service starts properly
 sleep 10
 
-bash
+python3 main.py
