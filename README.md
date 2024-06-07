@@ -28,14 +28,14 @@ This project is for educational purposes to demonstrate the use of Ollama, Huggi
 - **Docker Runtime:** [Install Docker](https://docs.docker.com/engine/install/)
 
 ### If using Ubuntu 22 you can use the following
-### Install NVIDIA CUDA Toolkit
+#### Install NVIDIA CUDA Toolkit
 ```bash
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb
 sudo dpkg -i cuda-keyring_1.1-1_all.deb
 sudo apt-get update
 sudo apt-get -y install cuda-toolkit-12-5
 ```
-### Install NVIDIA Container Toolkit
+#### Install NVIDIA Container Toolkit
 ```bash
 # Install nvidia container toolkit
 curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg \
@@ -50,7 +50,7 @@ sudo apt-get install -y nvidia-container-toolkit
 sudo nvidia-ctk runtime configure --runtime=docker
 sudo systemctl restart docker
 ```
-### Install Docker
+#### Install Docker
 ```bash
 # Add Docker's official GPG key:
 sudo apt-get update
