@@ -1,4 +1,5 @@
+#!/bin/bash
 IMAGE_NAME="tube-summarize:02"
 
 # Command to run docker with gpus enabled, mount the folder Docs and use the interactivily the bash shell
-docker run -it --gpus all  -p 8888:8888  $IMAGE_NAME
+docker run --gpus all  -p 5000:5000  $IMAGE_NAME
