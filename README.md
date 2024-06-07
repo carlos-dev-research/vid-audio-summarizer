@@ -100,7 +100,7 @@ sudo bash build-docker.sh
 sudo bash run-docker.sh
 ```
 
-### 4. Model should now be running on port http://127.0.0.1:5000
+### 4. Model should now be running on http://127.0.0.1:5000
 
 ## Samples
 ![sample1](https://github.com/carlos-dev-research/vid-audio-summarizer/assets/68810007/e78c41b1-4157-4204-9a32-c47d20c99cc7)
