@@ -1,3 +1,5 @@
+#!/bin/bash
+
 IMAGE_NAME="tube-summarize:02"
 
 # build docker image
