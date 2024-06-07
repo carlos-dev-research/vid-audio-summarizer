@@ -31,20 +31,20 @@ This project is for educational purposes to demonstrate the use of Ollama, Huggi
 
 ## Getting Started
 1.- Clone the Repository
-'''bash
+```bash
 git clone https://github.com/carlos-dev-research/vid-audio-summarizer.git
 cd vid-audio-summarizer
-'''
+```
 
 2.- Build Docker container
-'''bash
+```bash
 sudo bash build-docker.sh
-'''
+```
 
 3.- Run Docker Container
-'''bash
+```bash
 sudo bash run-docker.sh
-'''
+```
 
 4.- Model should now be running on port 5000
 
