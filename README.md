@@ -30,6 +30,7 @@ This project is for educational purposes to demonstrate the use of Ollama, Huggi
 ### If using Ubuntu 22 you can use the following
 #### Install NVIDIA CUDA Toolkit
 ```bash
+# Install NVIDIA container toolkit
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb
 sudo dpkg -i cuda-keyring_1.1-1_all.deb
 sudo apt-get update
