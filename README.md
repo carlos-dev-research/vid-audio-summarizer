@@ -10,7 +10,7 @@ This project is for educational purposes to demonstrate the use of Ollama, Huggi
 - Provides a web user chat interface for interaction
 - From the input text it parses the youtube link, download the transcription and process it with the LLM
 
-Notes and Observations
+## Notes and Observations
 - Larger Context Windows: The models are more likely to hallucinate with larger context windows.
 - Noisy Transcriptions: When the video transcription contains noisy text, the model is more likely to hallucinate. For example, repetitive nonsensical words that are sometimes output by Whisper Tiny model with complicated text.
 - Context Retrieval Algorithms: This model does not use other context retrieval algorithms, which might significantly improve model efficiency and performance.
